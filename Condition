@@ -1,0 +1,26 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package conditionalstatement;
+
+/**
+ *
+ * @author LILIAN
+ */
+public class Conditional {
+    int num;
+    void iseven(){
+        if(num%2==0){
+          System.out.print("The number is EVEN\n");      
+       }
+        
+        else {
+            System.out.print("The number is ODD\n");
+            
+        }
+        
+    }
+    
+    
+}
