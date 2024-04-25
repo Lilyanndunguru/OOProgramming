@@ -1,0 +1,56 @@
+
+package inheritance;
+
+import java.util.Scanner;
+
+
+public class INHERITANCE {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        DIT di = new DIT();
+        ComputerStudies co = new ComputerStudies();
+        co.displayInfo();
+        co.Location();
+        co.Colours();
+        co.Leadership();
+        
+      //1.....5
+      
+      int choice;
+      choice=1;
+      System.out.print("""
+                       Enter choice: 
+                       1: About us
+                       2: Location
+                       3: colour
+                       4: Leadership
+                       """);
+      
+      while(choice<6){
+          System .out.print("");
+          choice=sc.nextInt();
+          
+          switch(choice){
+              case 1:
+                  co.displayInfo();
+                  break;
+                  
+              case 2:
+                  co.Location();
+                  break;
+   
+              case 3:
+                  co.Colours();
+                  break;
+                  
+              case 4:
+                  co.Leadership();
+                  break;
+             
+          }
+          choice++;
+      }
+    }
+    
+}

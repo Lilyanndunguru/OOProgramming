@@ -1,0 +1,11 @@
+
+package inheritance;
+
+/**
+ *
+ * @author LILIAN
+ */
+public class ComputerStudies extends DIT {
+    
+    
+}

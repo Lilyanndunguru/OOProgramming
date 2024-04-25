@@ -1,0 +1,37 @@
+
+package inheritance;
+
+class DIT {
+    String Name="DAR ES SALAAM INSTITUTE OF TECHNOLOGY";
+    String ID="DIT/20678";
+    
+    void displayInfo(){
+        System.out.print("DIT- ABOUT US\n");
+        System.out.print("NAME: " +Name);
+        System.out.print("\nID: "+ID);
+        
+    }
+    
+     void Location(){
+         System.out.print("\nLOCATION: ");
+         System.out.print("Bibi Titi and ");
+         System.out.print("Morogoro Road \n");
+        
+    }
+     
+      void Colours(){
+          System.out.print("Colour: ");
+          System.out.print("White and ");
+          System.out.print("Blue \n");
+        
+    }
+      
+       String Leadership(){
+       System.out.print("Leader: ");
+        System.out.print("NDOMBA\n");
+           return Name;
+        
+    }
+    
+}
+
